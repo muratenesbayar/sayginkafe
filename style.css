@@ -1,3 +1,4 @@
+
 table {
  
   border-collapse: collapse;
@@ -6,12 +7,18 @@ table {
 h2{
   display: flex;
   justify-content: center;
+  color: black !important;
 }
 
 td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
+  border: 1px solid #dddddd !important;
+  text-align: left !important;
+  padding: 8px !important;
+}
+button{
+  border: 1px solid transparent;
+  border-radius: 8px !important;
+  background-color: transparent !important;
 }
 .tophead{
   display: flex;
@@ -21,4 +28,14 @@ td, th {
 }
 .tophead{
  background-image: url("saygin.jpeg");
+}
+
+.btn{
+  border: 2px solid black !important;
+  border-radius: 12px !important;
+  background-color: red !important;
+}
+
+.image{
+  height: 450px; !important;
 }
