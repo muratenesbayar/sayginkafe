@@ -1,0 +1,24 @@
+table {
+ 
+  border-collapse: collapse;
+  width: 100%;
+}
+h2{
+  display: flex;
+  justify-content: center;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+.tophead{
+  display: flex;
+  align-items: center;
+  
+  flex-direction: column;
+}
+.tophead{
+ background-image: url("saygin.jpeg");
+}
