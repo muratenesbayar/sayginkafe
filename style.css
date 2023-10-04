@@ -1,4 +1,6 @@
-
+body {
+  background-color: #141414 !important;
+}
 table {
  
   border-collapse: collapse;
@@ -7,13 +9,14 @@ table {
 h2{
   display: flex;
   justify-content: center;
-  color: black !important;
+ 
 }
 
 td, th {
   border: 1px solid #dddddd !important;
   text-align: left !important;
   padding: 8px !important;
+  color: white;
 }
 button{
   border: 1px solid transparent;
