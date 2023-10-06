@@ -29,9 +29,12 @@ th{
   
   flex-direction: column;
 }
-.tophead{
- background-image: url("../image/saygin.jpeg");
-}
+/*.tophead{
+ background-image: url("../image/saygintophead.jpg");
+ width: 1230px;
+ height: 230px;
+ background-size: cover;
+}*/
 
 .btn{
   border: 1px solid transparent;
@@ -95,4 +98,8 @@ background-image: url(../image/icecekresim.jpg);
 .ontext {
   
     z-index: 9999999 !important;
+}
+.footer{
+  background-color: black;
+  height: 100px;
 }
