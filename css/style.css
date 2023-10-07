@@ -80,13 +80,15 @@ hr{
 }
 .sogukicecekler{
 background-image: url(../image/sogukicecekler.jpg);
+background-repeat:no-repeat;
 }
 .sicakicecekler{
 background-image: url(../image/icecekresim.jpg);
+background-repeat:no-repeat;
 }
 .nargileler{
-  background-image: url(../image/nargile6.jpg);
-  position: absolute;
+  background-image: url(../image/nargile.jpg);
+  background-repeat:no-repeat;
   
 }
 
