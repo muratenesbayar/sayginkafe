@@ -84,6 +84,11 @@ background-image: url(../image/sogukicecekler.jpg);
 .sicakicecekler{
 background-image: url(../image/icecekresim.jpg);
 }
+.nargileler{
+  background-image: url(../image/nargile6.jpg);
+  position: absolute;
+  
+}
 
 .overlay {
     position: absolute;
