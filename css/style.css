@@ -123,3 +123,6 @@ background-repeat:no-repeat;
 .maptext{
   color: orange !important ;
 }
+.map{
+  max-width: 100% !important;
+}
