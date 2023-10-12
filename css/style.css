@@ -126,3 +126,6 @@ background-repeat:no-repeat;
 .map{
   max-width: 100% !important;
 }
+.alert{
+  color: red !important;
+}
