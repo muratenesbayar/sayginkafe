@@ -118,7 +118,7 @@ background-repeat:no-repeat;
 }
 .footer{
   background-color: black;
-  height: 100px;
+  height: 150px;
 }
 .maptext{
   color: orange !important ;
@@ -128,4 +128,8 @@ background-repeat:no-repeat;
 }
 .alert{
   color: red !important;
+}
+.footerimage{
+  width: 25px;
+  height: 25px;
 }
