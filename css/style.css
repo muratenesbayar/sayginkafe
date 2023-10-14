@@ -3,9 +3,10 @@
     margin: 0px;
 }
 body {
-  background-color: #141414 !important;
+  background-color: black !important;
 
 }
+/*#141414*/
 table {
  
   border-collapse: collapse;
@@ -115,6 +116,17 @@ background-repeat:no-repeat;
 .ontext {
   
     z-index: 9999999 !important;
+}
+.footerindex{
+  background-color: black;
+  height: 150px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 .footer{
   background-color: black;
