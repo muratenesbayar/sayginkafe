@@ -125,6 +125,15 @@ hr{
   bottom: 0;
 
 }
+.footerindex{
+  background-color: black;
+  height: 150px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  
+}
 .footer{
   background-color: black;
   height: 150px;
