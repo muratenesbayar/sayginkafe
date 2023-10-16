@@ -1,13 +1,13 @@
 *{
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 body {
-  background-color: #141414 !important;
+  background-color: black !important;
 
 }
+/*#141414*/
 table {
- 
   border-collapse: collapse;
   width: 100%;
 }
@@ -15,7 +15,7 @@ h2{
   display: flex;
   justify-content: center;
   color: orange !important;
- 
+
 }
 
 td, th {
@@ -61,7 +61,7 @@ li a{
   border-radius: 15px;
 }
 
-.menuitem1 a{ 
+.menuitem1 a{
 
   display: flex;
   justify-content: center;
@@ -77,12 +77,12 @@ hr{
   color: white !important;
 }
 .sogukicecekler{
-background-image: url(../image/sogukicecekler.jpg);
-background-repeat:no-repeat;
+  background-image: url(../image/sogukicecekler.jpg);
+  background-repeat:no-repeat;
 }
 .sicakicecekler{
-background-image: url(../image/icecekresim.jpg);
-background-repeat:no-repeat;
+  background-image: url(../image/icecekresim.jpg);
+  background-repeat:no-repeat;
 }
 .nargileler{
   background-image: url(../image/nargile.jpg);
@@ -103,18 +103,27 @@ background-repeat:no-repeat;
 
 
 .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
 }
 
 .ontext {
-  
-    z-index: 9999999 !important;
+
+  z-index: 9999999 !important;
+}
+.footerindex{
+  background-color: black;
+  height: 150px;
+  position: relative;
+  right: 0;
+  left: 0;
+  bottom: 0;
+
 }
 .footer{
   background-color: black;
@@ -132,4 +141,26 @@ background-repeat:no-repeat;
 .footerimage{
   width: 25px;
   height: 25px;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: black !important;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh; /* This ensures the body takes at least the height of the viewport */
+    }
+
+    .container {
+        flex: 1; /* This allows the container to grow and fill the remaining space */
+    }
+
+    .footerindex {
+        background-color: black;
+        height: 150px;
+        width: 100%; /* Ensure full width */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end; /* Push content to the bottom */
+    }
 }
