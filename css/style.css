@@ -125,15 +125,6 @@ hr{
   bottom: 0;
 
 }
-.footerindex{
-  background-color: black;
-  height: 150px;
-  position: absolute;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  
-}
 .footer{
   background-color: black;
   height: 150px;
@@ -157,19 +148,19 @@ hr{
         background-color: black !important;
         display: flex;
         flex-direction: column;
-        min-height: 100vh; /* This ensures the body takes at least the height of the viewport */
+        min-height: 100vh; 
     }
 
     .container {
-        flex: 1; /* This allows the container to grow and fill the remaining space */
+        flex: 1;
     }
 
     .footerindex {
         background-color: black;
         height: 150px;
-        width: 100%; /* Ensure full width */
+        width: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: flex-end; /* Push content to the bottom */
+        justify-content: flex-end;
     }
 }
