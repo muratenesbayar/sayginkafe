@@ -188,5 +188,5 @@ hr{
 
     .swiper-pagination-bullet-active{
       background-color: yellow !important;
-      border: 2px solid red;
+      border: 1px solid red;
     }
